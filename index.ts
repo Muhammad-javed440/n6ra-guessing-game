@@ -11,8 +11,8 @@ const answer =await inquirer.prompt([
 }
 ]);
 if(answer.userGuessNumber===randomNumber){
-    console.log("Congratulation! you won the game.");
+    console.log("Congratulation! you won the game.Thanks to play game. ");
 }
 else{
-    console.log("You lose the game,Try again");
+    console.log("You lose the game,Try again.Thanks to play game.");
 }
