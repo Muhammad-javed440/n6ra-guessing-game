@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 // 1-compter will generate a random number
 // 2-user input for guessing number
@@ -11,8 +12,8 @@ const answer = await inquirer.prompt([
     }
 ]);
 if (answer.userGuessNumber === randomNumber) {
-    console.log("Congratulation! you won the game.");
+    console.log("Congratulation! you won the game.Thanks to play game. ");
 }
 else {
-    console.log("You lose the game,Try again");
+    console.log("You lose the game,Try again.Thanks to play game.");
 }
