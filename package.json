@@ -1,6 +1,6 @@
 {
   "name": "n6ra-guessing-game",
-  "version": "1.0.2 ",
+  "version": "1.0.3 ",
   "description": "Number guessing game",
   "main": "index.js",
   "type": "module",
