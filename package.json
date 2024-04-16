@@ -4,6 +4,7 @@
   "description": "Number guessing game",
   "main": "index.js",
   "type": "module",
+   "publishConfig": {"access": "public"},
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
